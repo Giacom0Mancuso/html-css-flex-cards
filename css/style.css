@@ -11,5 +11,18 @@
 }
 
 main{
+    text-align: center;
+    width: 70%;
+}
 
+.mt-20{
+    margin-top: 20px;
+}
+
+.text_red{
+    color: #E53170;
+}
+
+.m-40{
+    margin: 40px;
 }
