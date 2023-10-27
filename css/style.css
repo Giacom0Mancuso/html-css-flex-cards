@@ -12,7 +12,9 @@
 
 main{
     text-align: center;
-    width: 70%;
+    width: 90%;
+    flex-wrap: wrap;
+    
 }
 
 .mt-20{
@@ -25,4 +27,51 @@ main{
 
 .m-40{
     margin: 40px;
+}
+
+.black_box{
+    background-color: black;
+    height: 85px;
+    width: 25%;
+    box-shadow: 3px 3px 8px gray;
+    min-width: 350px;
+}
+.img{
+    height: 85px;
+    width: 100px;
+    justify-content: left;
+}
+.display{
+    display: inline-block;
+}
+.text_box{
+    color: white;
+    align-self: left;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 75px;
+    align-items: left;
+    margin-bottom: 30px;
+    
+
+}
+
+.line-heigth-50{
+    line-height: 30px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.text_blue{
+    color: #6BC5EB;
+}
+.ml-10{
+    margin-left: 20px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.displayf{
+    display: inline-flex;
 }
